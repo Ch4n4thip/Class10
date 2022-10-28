@@ -1,16 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import RestBasic from './rest-basic';
-import FormGet from './form-get';
-
+import DBNav from './db-nav';
 function App() {
-  return (
-    <div className="App">
-      <RestBasic />
-      <FormGet />
-    </div>
-  );
+  return <DBNav/>
 }
 
 export default App;
